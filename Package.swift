@@ -10,7 +10,7 @@ let package = Package(
             targets: ["RequestSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/BiAtoms/Socket.swift.git", .upToNextMinor(from: "2.4.0"))
+        .package(url: "https://github.com/nekohaxx/Socket.swift.git", .upToNextMinor(from: "2.5.0"))
     ],
     targets: [
         .target(
